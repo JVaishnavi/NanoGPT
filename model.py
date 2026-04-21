@@ -81,7 +81,7 @@ class Block(nn.Module):
 n_head = 8
 n_layer = 8
 
-class BigramLanguageModel(nn.Module):
+class TransformerLanguageModel(nn.Module):
     def __init__(self, vocab_size):
         super().__init__()
         
